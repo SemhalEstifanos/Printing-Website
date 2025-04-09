@@ -1,0 +1,524 @@
+
+@font-face {
+    font-family: Poppins;
+    src:url(Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Monograma;
+   src: url(image/Monograma.ttf);
+}
+body {
+    font-size: 17px;
+    font-family: Poppins;
+   overflow-x: hidden;
+}
+
+
+.greennav {
+    background-color: rgb(51, 110, 51);
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    border: solid 0.5px rgb(51, 110, 51);
+
+
+}
+
+.container {
+
+    background-image: url(image/trialimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/trialimage.jpg);
+    width: 100%;
+    height: 900px;
+}
+
+.container h1 {
+    margin-top: 160px;
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    /* line-height: 30px; */
+
+
+}
+
+#contactus {
+    margin-left: 40%;
+    text-align: center;
+    background-color: rgb(146, 144, 144);
+    width: 250px;
+    border-radius: 15px ;
+    border: none;
+    height: 65px;
+    font-size: 30px;
+    color: white;
+    margin-top: 2%;
+}
+
+
+
+
+.navbar {
+    padding-left: 10%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
+
+.container p {
+    line-height: 1.2;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#phone {
+    color: white;
+    font-size: 35px;
+    padding-left: 10%;
+
+}
+
+.border {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    font-size: 40px;
+
+}
+
+.second-page {
+
+    span {
+        color: green
+    }
+
+    h3 {
+        font-size: 60px;
+        line-height: 1.0;
+    }
+
+    p {
+        color: gray;
+    }
+
+    gap: 9%;
+    padding: 100px;
+    display: flex;
+
+    img {
+        width: 750px;
+        height: 650px;
+        box-shadow: 10px 10px 5px 12px rgb(190, 190, 190);
+        border-radius: 10px;
+    }
+
+    .button {
+        display: flex;
+        border: none;
+        text-align: center;
+
+        gap: 10%;
+    }
+
+
+}
+
+#knowmore {
+    background-color: rgb(81, 185, 81);
+    width: 250px;
+    border-radius: 45px 45px;
+    color: white;
+    height: 80px;
+    border: none;
+    font-size: 30px;
+
+
+}
+
+#contact {
+    background-color: whiter;
+    width: 250px;
+
+    border-radius: 45px 45px;
+    height: 80px;
+
+    font-size: 30px;
+
+    color: black;
+}
+
+/* .aboveicon{
+    color: gray;
+}
+.belowicon{
+    color: black;
+} */
+
+.lastpage {
+   
+    font-size: 10px;
+}
+.footer{
+    font-size: 17px;
+    height: 300px;
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    gap: 5%;
+    padding-top: 3%;
+    padding-left: 3%;
+    color: white;
+    margin-top: 20%;
+   
+    border-bottom: 1px solid white;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.lastimage img{
+      height: 190px;
+      width:190px;
+      border-radius:10px;
+}
+
+
+
+.copyright{
+    font-size: 18px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.lasticons{
+    display: flex;
+    gap: 20%;
+    margin-bottom: 3%;
+}
+.lasticon{
+    display: flex;
+    gap: 8%;
+}
+.tele{
+    display: flex;
+    gap: 8%;
+}
+.secondphone{
+    display: flex;
+}
+
+
+.icons{
+ 
+    background-color: rgb(227, 241, 241);
+    padding-left: 20px;
+    display: flex;
+    gap: 15%;
+    padding: 2%;
+    margin-bottom: 7%;
+    height: 5%;
+    img{
+        width: 50px;
+        height: 70px;
+    }
+}
+
+.trophy1{
+    display: flex;
+    font-size: 20px;
+    gap: 6px;
+    
+}
+
+.textoftrophy{
+    display:inline-block;
+    justify-content: space-between;
+
+}
+.rasi{
+    text-align: center;
+    font-size: 45px;
+    p{
+        font-size: 20px;
+        color: gray;
+    }
+    
+}
+.paint{
+    display: flex;
+   
+}
+img{
+    width: 500px;
+    height:400px;
+}
+
+.detail{
+    gap: 10px;
+    
+}
+
+.details{
+    gap: 2%;
+    display: flex;
+    margin: 5%;
+
+   
+}
+.details img{
+    border-radius: 20px;
+    height: 500px;
+}
+.details i{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgb(217, 232, 236);
+    height: 30px;
+    width: 40px;
+}
+
+.traditional{
+
+    display: flex;
+    gap: 50px;
+}
+.traditional i{
+    margin-top: 30px;
+
+}
+.traditional h3{
+    font-size: 40px;
+}
+#traditional-text{
+    margin-top: -7px;
+    color: gray;
+
+}
+
+
+
+
+.client-praise{
+    text-align: center;
+    font-size: 45px;
+    p{
+        font-size: 20px;
+        color: gray;
+    }
+    
+}
+
+.garment-industry{
+    margin-top: 7%;
+    margin-left: 10%;
+    display:flex;
+    gap: 350px;
+   
+
+    
+}
+ .garment-industry img{
+    width: 100px;
+    height:100px;
+}
+.aditalogo{
+
+    
+   
+}
+.adita{
+    /* border: solid 1px ; */
+    display: flex;
+    text-align: center;
+    gap: 2%;
+   
+}
+
+
+.arvind{
+    display: flex;
+    gap: 30px;
+   
+}
+
+
+.raymondmills{
+    display: flex;
+}
+.stars{
+    display: flex;
+    width: 80px;
+    margin-left: 10%;
+    font-size: 30px;
+    color: rgb(104, 172, 104);
+
+}
+
+.high-qualitty{
+    margin-top: 6%;
+    margin-left: 10%;
+    font-size: 32px;
+    margin-bottom: 26px;
+  
+}
+.paragraph{
+    color: gray;
+    line-height: 35px;
+
+}
+
+.high-quality img{
+    margin-top: -120px;
+    width:600px;
+    height: 500px;
+    border-radius: 20px ;
+  
+}
+
+.high-quality{
+    margin-left: 10%;
+    gap: 3%;
+  
+    display: flex;
+
+}
+.brands{
+    margin-left: 9%;
+    margin-top: 7%;
+    display: flex;
+    gap: 7%;
+    margin-bottom: 10%;
+    
+   
+}
+.brands img{
+    height:130px;
+    width: 130px;
+}
+.showcasing-work{
+    font-size: 35px;
+    text-align: center;
+}
+#showcse-content{
+    font-size: 25px;
+    color: gray;
+}
+.showing-images {
+    border: 35px;
+  
+    margin-left: 240px;
+    gap: 20px;
+    display: flex;
+}
+#thrift{
+    width: 450px;
+    height: 520px;
+    border-radius: 20px;
+}
+#h2{
+    width: 450px;
+    height: 520px;
+    border-radius: 20px;
+}
+#tarma{
+    width: 450px;
+    height: 520px;
+    border-radius: 20px;
+}
+
+.woman img{
+    border-radius: 55px ;
+    margin-left: 12%;
+    padding: 30px;
+    border: 40px;
+    width: 75%;
+    height:700px;
+    /* height: ; */
+}
+.reachout{
+    text-align: center;
+   
+}
+
+#reahout-text{
+    color: gray;
+}
+
+
+
+.background img{
+    padding-left: 10%; 
+    position: absolute;
+    height: 700px;
+    width: 1420px;
+    margin-bottom: 600px;
+  
+
+}
+.box{
+    box-shadow: 10px 10px 5px 12px rgb(218, 215, 215);
+    margin-top: 2%;
+    margin-right: 50px;
+    margin-left: 17%;
+    width: 25%; 
+    padding-top: 3%;
+    padding-left: 60px;
+    position: relative;
+    border-radius: 30px;
+    border:20px;
+   background-color: white;
+  
+
+   h3{
+    font-size: 40px;
+   }
+   p{
+    color: gray;
+   }
+}
+.box i{
+    color: white;
+    font-size: 20px;
+    padding-left: 6%;
+    padding-bottom: 20px;
+    margin-top: 1%;
+    border-radius: 50% ;
+    height: 18px;
+    width: 50px;
+    background-color: black;
+  
+   }
+.contatct-info i{
+  
+     
+    padding-top: 18px;
+
+}
+.contatct-info{
+
+    display: flex;
+    gap: 6%;
+}
+@media only screen and (min-width:0px) and(max-width:430px) {
+    
+}
